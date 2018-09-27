@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6457" started-at="2018-09-23T02:50:28Z" finished-at="2018-09-23T02:50:35Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6457" started-at="2018-09-23T02:50:28Z" finished-at="2018-09-23T02:50:35Z">
+      <class name="RestAsssuredExamples1.Customer_API">
+        <test-method status="PASS" signature="Create_Customer()[pri:0, instance:RestAsssuredExamples1.Customer_API@5ca609]" name="Create_Customer" duration-ms="4367" started-at="2018-09-23T02:50:28Z" finished-at="2018-09-23T02:50:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Customer -->
+        <test-method status="PASS" signature="delete_Customer()[pri:0, instance:RestAsssuredExamples1.Customer_API@5ca609]" name="delete_Customer" duration-ms="2032" started-at="2018-09-23T02:50:33Z" finished-at="2018-09-23T02:50:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delete_Customer -->
+      </class> <!-- RestAsssuredExamples1.Customer_API -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
