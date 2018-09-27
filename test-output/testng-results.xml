@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6457" started-at="2018-09-23T02:50:28Z" finished-at="2018-09-23T02:50:35Z">
+  <suite name="Default suite" duration-ms="7064" started-at="2018-09-27T15:43:58Z" finished-at="2018-09-27T15:44:05Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6457" started-at="2018-09-23T02:50:28Z" finished-at="2018-09-23T02:50:35Z">
+    <test name="Default test" duration-ms="7064" started-at="2018-09-27T15:43:58Z" finished-at="2018-09-27T15:44:05Z">
       <class name="RestAsssuredExamples1.Customer_API">
-        <test-method status="PASS" signature="Create_Customer()[pri:0, instance:RestAsssuredExamples1.Customer_API@5ca609]" name="Create_Customer" duration-ms="4367" started-at="2018-09-23T02:50:28Z" finished-at="2018-09-23T02:50:33Z">
+        <test-method status="PASS" signature="Create_Customer()[pri:0, instance:RestAsssuredExamples1.Customer_API@5ca609]" name="Create_Customer" duration-ms="5028" started-at="2018-09-27T15:43:58Z" finished-at="2018-09-27T15:44:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Create_Customer -->
-        <test-method status="PASS" signature="delete_Customer()[pri:0, instance:RestAsssuredExamples1.Customer_API@5ca609]" name="delete_Customer" duration-ms="2032" started-at="2018-09-23T02:50:33Z" finished-at="2018-09-23T02:50:35Z">
+        <test-method status="PASS" signature="retrieveCustomer()[pri:0, instance:RestAsssuredExamples1.Customer_API@5ca609]" name="retrieveCustomer" duration-ms="1969" started-at="2018-09-27T15:44:03Z" finished-at="2018-09-27T15:44:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- delete_Customer -->
+        </test-method> <!-- retrieveCustomer -->
       </class> <!-- RestAsssuredExamples1.Customer_API -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
