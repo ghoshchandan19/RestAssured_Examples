@@ -15,7 +15,7 @@ public class Customer_API {
 	@Test
 	public void Create_Customer() {
 		
-	Response response=	given().auth().basic("sk_test_XPbhuUljR0FL1uTrfqagOIcP","")
+	Response response=	given().auth().basic("ur key","")
 		.formParam("email","mukesh@yahoo.com").formParam("description","test")
 		.post("https://api.stripe.com/v1/customers").then().extract().response();
 	
@@ -27,23 +27,23 @@ public class Customer_API {
 	@Test
 	public void retrieveCustomer()
 	{
-		Response response=	given().auth().basic("sk_test_XPbhuUljR0FL1uTrfqagOIcP", "")
+		Response response=	given().auth().basic("ur key", "")
 				.get("https://api.stripe.com/v1/customers/cus_Deh4WGSQ7fMM1U").then().extract().response();
 		System.out.println("----------------------------------------------------------");
 		System.out.println(response.asString());
 		System.out.println(response.getStatusCode());
 	}
-	/*
+	
 	@Test
 	public void delete_Customer(){
-	Response response=	given().auth().basic("sk_test_XPbhuUljR0FL1uTrfqagOIcP", "")
+	Response response=	given().auth().basic("ur key", "")
 		.delete("https://api.stripe.com/v1/customers/cus_Degq0TfEVwAaeZ").then().extract().response();
 	System.out.println("----------------------------------------------------------");
 	System.out.println(response.asString());
 	System.out.println(response.getStatusCode());
 		
 	}
-	*/
+	
 	
 	
 	
